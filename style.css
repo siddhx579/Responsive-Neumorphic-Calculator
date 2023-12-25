@@ -1,3 +1,4 @@
+/*Styling the overall layout of the body*/
 *{
     margin: 0;
     padding: 0;
@@ -7,6 +8,7 @@
     outline: none;
 }
 
+/*Styling the */
 .container{
     height: 100vh;
     display: flex;
@@ -14,6 +16,7 @@
     align-items: center;
 }
 
+/*Styling the calculator background and its borders*/
 .calculator{
     background-color: #64c4c3;
     padding: 15px;
@@ -23,6 +26,7 @@
     grid-template-columns: repeat(4, 68px);
 }
 
+/*Styling the input box of the calculator*/
 input{
     grid-column: span 4;
     height: 70px;
@@ -40,6 +44,7 @@ input{
     padding: 20px;
 }
 
+/*Styling the buttons of the calculator*/
 button{
     height: 48px;
     width: 48px;
@@ -51,6 +56,7 @@ button{
     font-size: 16px;
 }
 
+/*Styling the equal-to button in the calculator*/
 .equal{
     width: 115px;
     border-radius: 40px;
